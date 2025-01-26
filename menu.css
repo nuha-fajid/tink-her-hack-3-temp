@@ -60,25 +60,41 @@
     transform: scale(1.1);
   }
   
-  .menu-card {
-    width: 46%; /* 60% width of the viewport */
-    height:72%; /* 60% height of the viewport */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
-    border: 5px solid red;
-    border-radius: 15px;
+  @keyframes popEffect {
+  0% {
+    transform: scale(0.9);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  }
+  100% {
+    transform: scale(1);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
   }
-  
-  .menu-card img {
-    max-width: 100%;
-    max-height: 110%;
-    object-fit:cover;
-    border-radius: 10px;
+}
 
-  }
+.menu-card {
+  width: 49%; /* 60% width of the viewport */
+  height: 72%; /* 60% height of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  border: 5px solid red;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+  animation: popEffect 0.8s ease-in-out; /* Add the animation here */
+}
+
+.menu-card img {
+  max-width: 100%;
+  max-height: 110%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
   .back-arrow {
     position: absolute;
     top: 10px;
