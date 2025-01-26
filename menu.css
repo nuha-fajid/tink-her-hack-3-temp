@@ -61,7 +61,7 @@
   }
   
   .menu-card {
-    width: 49%; /* 60% width of the viewport */
+    width: 47%; /* 60% width of the viewport */
     height:72%; /* 60% height of the viewport */
     display: flex;
     justify-content: center;
