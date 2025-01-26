@@ -1,6 +1,6 @@
 
 
-# [Project Name] 🎯
+# QUICK DINE
 
 
 ## Basic Details
