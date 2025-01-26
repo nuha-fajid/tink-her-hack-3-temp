@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Details</title>
+    <link rel="stylesheet" href="restor.css">
+</head>
+<body>
+    <!-- Home Button -->
+    <header>
+        <a href="javascript:history.back()" class="back-arrow">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15 19l-7-7 7-7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        <a href="index.html" class="home-button">Home</a>
+    </header>
+
+    <!-- Restaurant Image -->
+    <main>
+        <div class="restaurant-image">
+            <img src="http://www.stylemotivation.com/wp-content/uploads/2017/06/03_2015_BALTAIR-156.0.0.jpg" alt="Selected Restaurant">
+        </div>
+
+        <!-- Restaurant Contact Information -->
+        <div class="restaurant-info">
+            <h1>The Gourmet Spot</h1>
+            <p>📍 Address: 123 Main Street, City, State</p>
+            <p>📞 Phone: +1-234-567-890</p>
+            <p>🌐 Website: <a href="https://restaurantwebsite.com" target="_blank">restaurantwebsite.com</a></p>
+        </div>
+    </main>
+
+    <!-- Footer with Buttons -->
+    <footer>
+        <button id="menuCard" onclick="window.location.href='menu.html'">Menu Card</button> 
+        <button id="parkingStatus" onclick="window.location.href='inpark.html'">Parking Status</button>
+        <button id="tableBooking" onclick="window.location.href='inox.html'">Book Table</button>
+    </footer>
+    
+</body>
+
+</html>

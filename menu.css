@@ -1,0 +1,99 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-image:url('https://d1csarkz8obe9u.cloudfront.net/posterpreviews/bifold-menu-flyers-design-template-bc6423fa9d4045ef6e60c73d333f436c_screen.jpg?ts=1631319428');
+  }
+  
+  .container {
+    position: relative;
+    height: 100vh;
+   /* background-image: url('https://t4.ftcdn.net/jpg/03/53/31/69/360_F_353316914_m15Upk3Q32k9TAofycnosWeWRJOQ5Cmi.jpg'); /* Full-screen background */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+  }
+  
+  .heading {
+    position: absolute;
+    top: 30px;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: rgb(193, 179, 179);
+    font-style:normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .home-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .home-button:hover {
+    background-color: white;
+    color: red;
+    transform: scale(1.1);
+  }
+  
+  .menu-card {
+    width: 47%; /* 60% width of the viewport */
+    height:69%; /* 60% height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    border: 5px solid red;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .menu-card img {
+    max-width: 100%;
+    max-height: 110%;
+    object-fit:cover;
+    border-radius: 10px;
+
+  }
+  .back-arrow {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgb(7, 7, 7);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .back-arrow:hover {
+    background-color: #c0392b;
+  }

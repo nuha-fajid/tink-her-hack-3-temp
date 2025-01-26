@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    overflow-y: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    background-color: #222;
+}
+
+.home-button {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.restaurant-image img {
+    width: 100%;
+    max-height: 50vh;
+    object-fit: cover;
+}
+
+.restaurant-info {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.restaurant-info h1 {
+    color: red;
+    margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #222;
+    border-top: 2px solid red;
+    height: 30px;
+}
+
+footer button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 10px 21px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    height: 28px;
+}
+.back-arrow {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgb(15, 14, 14);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .back-arrow:hover {
+    background-color: #c0392b;
+  }

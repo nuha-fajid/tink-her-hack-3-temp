@@ -1,0 +1,116 @@
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #000000, #434343);
+    color: #ffffff;
+    overflow-y: hidden;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #000000;
+    color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #e74c3c;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #eee6e6;
+}
+
+/* Image banner */
+.image-banner {
+    position: relative;
+    text-align: center;
+    color: #1a0707;
+    background-image: url('Seamless\ pattern\ with\ gray\ and\ red\ burgers\ on\ black\ background_\ Dark\ texture\ with\ outline\ hamburgers\ for\ fast\ food\ banner\,\ textile\,\ wrapping\ paper\,\ package\,\ cover.jpg');
+    
+    background-position: center;
+    background-repeat:repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-banner h1 {
+    font-family: 'Playfair Display', serif; /* Stylish font */
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #a7a4a4;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Intro text */
+.intro {
+    text-align: center;
+    margin: 1px auto; /* Space between banner and intro text */
+    font-size: 20px;
+    line-height: 1.5;
+    max-width: 800px;
+}
+
+.intro span {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+/* Search container */
+.search-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 40px auto;
+}
+
+.search-container input {
+    padding: 12px;
+    font-size: 16px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-container button {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: #c0392b;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylo.css">
+    <title>Table Booking</title>
+</head>
+<body>
+    
+    <div class="top-bar">
+        <a href="javascript:history.back()" class="back-arrow">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15 19l-7-7 7-7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        <div class="restaurant-name">RESTAURANT NAME</div>
+        <a href="index.html">
+            <button class="home-button">Home</button>
+        </a>
+        
+    </div>
+    <div class="main-container">
+        <div class="title">TABLE BOOKING</div>
+        <div class="table-grid"></div>
+        <div class="selected-tables">Selected tables -</div>
+        <button class="confirm-button">CONFIRM BOOKING</button>
+    </div>
+    <div class="phone-number-container hidden">
+        
+        <div class="title">Reservation Details</div>
+        <div class="reserved-tables"></div>
+        <input type="text" class="phone-input" placeholder="Enter your phone number">
+        <button class="confirm-phone-button">Pay and Continue</button>
+
+    </div>
+    <script src="scripto.js"></script>
+</body>
+</html>
