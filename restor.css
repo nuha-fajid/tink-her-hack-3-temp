@@ -56,17 +56,24 @@ footer {
     height: 30px;
 }
 
-footer button {
+.footer-button {
     background-color: red;
+    display: inline-block;
     color: white;
     border: none;
+    text-decoration: none;
     padding: 5px 12px 22px 12px;
     border-radius: 5px;
     font-size: 1rem;
     cursor: pointer;
     text-align: center;
-    height: 28px;
+    height: 10px;
 }
+.footer-button:hover {
+    background-color: white;
+    color: red;
+    transform: scale(1.1);
+  }
 .back-arrow {
     position: absolute;
     top: 10px;
