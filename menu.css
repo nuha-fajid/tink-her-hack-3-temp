@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +14,6 @@
   .container {
     position: relative;
     height: 100vh;
-   /* background-image: url('https://t4.ftcdn.net/jpg/03/53/31/69/360_F_353316914_m15Upk3Q32k9TAofycnosWeWRJOQ5Cmi.jpg'); /* Full-screen background */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -76,16 +75,16 @@
 }
 
 .menu-card {
-  width: 49%; /* 60% width of the viewport */
-  height: 72%; /* 60% height of the viewport */
+  width: 49%; 
+  height: 72%; 
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  background-color: rgba(0, 0, 0, 0.7); 
   border: 5px solid red;
   border-radius: 15px;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
-  animation: popEffect 0.8s ease-in-out; /* Add the animation here */
+  animation: popEffect 0.8s ease-in-out; 
 }
 
 .menu-card img {
