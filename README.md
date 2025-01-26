@@ -32,25 +32,26 @@ For Software:
 
 # Screenshots 
 1. HOME_PAGE
-https://drive.google.com/file/d/1Wah8D930jXjrgJp2EaJdwTCxPzV3Bdwy/view?usp=sharing](https://drive.google.com/file/d/1Wah8D930jXjrgJp2EaJdwTCxPzV3Bdwy/view?usp=sharing
+https://drive.google.com/file/d/1Wah8D930jXjrgJp2EaJdwTCxPzV3Bdwy/view?usp=sharing
 
 First page of the website. You can search for a location or a particular Restaurant.
 
 2. RESTAURANTS
-https://drive.google.com/file/d/1yPAYGv-xHw9yRbjhbXRCrRWJ2JVTIPu4/view?usp=sharing](https://drive.google.com/file/d/1Wah8D930jXjrgJp2EaJdwTCxPzV3Bdwy/view?usp=sharing
+https://drive.google.com/file/d/1Wah8D930jXjrgJp2EaJdwTCxPzV3Bdwy/view?usp=sharing
 
 It displays all the restaurants and their star ratings. Users can select their required one.
 
 3. RESTAURANT HOME PAGE
-https://drive.google.com/file/d/1yPAYGv-xHw9yRbjhbXRCrRWJ2JVTIPu4/view?usp=drive_link](https://drive.google.com/file/d/1yPAYGv-xHw9yRbjhbXRCrRWJ2JVTIPu4/view?usp=sharing
+https://drive.google.com/file/d/1yPAYGv-xHw9yRbjhbXRCrRWJ2JVTIPu4/view?usp=sharing
 
 Shows some basic details of the restaurant. Has buttons to view menu, check parking space availability, book tables.
 
 4. MENU CARD
 https://drive.google.com/file/d/1F8To43sWrLs8PeR7gcDUR0gKHf-9G0Ko/view?usp=sharing
+
 Shows the menu card.
 
-5. PARKING SPACE AVAILABILITY
+6. PARKING SPACE AVAILABILITY
 https://drive.google.com/file/d/18bI-U31jnzoeIRPv5tmklR-hQ7VCbZBD/view?usp=sharing
 
 Green shows free parking space. Red shows it is still occupied. This is a real time status updated by the restaurant management.
