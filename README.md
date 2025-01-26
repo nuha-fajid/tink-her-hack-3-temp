@@ -13,7 +13,7 @@
 - Member 3: Rana Ayisha Shihab- Government Engineering College, Thrissur
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+https://quickdine-psi.vercel.app/
 
 ### Project Description
 QuickDine is a website designed to help users view the various restaurants in the city they prefer, table and parking space availabilities. It also enables them to view the menu of that particular restaurant and book their desired number of tables. Each reservation lasts for only 10 minutes and costs a fixed amount.
@@ -30,68 +30,50 @@ For Software:
 - Languages : HTML, CSS, JavaScript
 - Tools : VS Code, GIT
 
-### Implementation
-For Software:
-# Installation
-[commands]
-
-# Run
-[commands]
-
-### Project Documentation
-For Software:
-
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+1. HOME_PAGE
+https://drive.google.com/file/d/1Wah8D930jXjrgJp2EaJdwTCxPzV3Bdwy/view?usp=sharing
+First page of the website. You can search for a location or a particular Restaurant.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+2. RESTAURANTS
+https://drive.google.com/file/d/1YHQfeIPO1ldfTXhYPeb9rlTJ0t850ZM-/view?usp=drive_link
+It displays all the restaurants and their star ratings. Users can select their required one.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+3. RESTAURANT HOME PAGE
+https://drive.google.com/file/d/1yPAYGv-xHw9yRbjhbXRCrRWJ2JVTIPu4/view?usp=drive_link
+Shows some basic details of the restaurant. Has buttons to view menu, check parking space availability, book tables.
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+4. MENU CARD
+https://drive.google.com/file/d/1F8To43sWrLs8PeR7gcDUR0gKHf-9G0Ko/view?usp=drive_link
+Shows the menu card.
 
-For Hardware:
+5. PARKING SPACE AVAILABILITY
+https://drive.google.com/file/d/18bI-U31jnzoeIRPv5tmklR-hQ7VCbZBD/view?usp=drive_link
+Green shows free parking space. Red shows it is still occupied. This is a real time status updated by the restaurant management.
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+6. TABLE BOOKING
+https://drive.google.com/file/d/1Z01QprR0WN6vqEBvNNR3aCQ5pPVVwgNA/view?usp=drive_link
+Shows the available tables of various seating capacities. User can choose any number of tables.
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+7. CONFIRMING FOR PAYMENT
+https://drive.google.com/file/d/1g1DaX9fWdspeMI9bnf-3NM9o_rLl4c4s/view?usp=drive_link
+Shows the booked tables' ids and asks for phone number as a reservation id and moves forward for payment methods. (We havent added the payment gateways)
 
-# Build Photos
-![Team](Add photo of your team here)
-
-
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
+8. CONFIRMED RESERVATION
+https://drive.google.com/file/d/1yTMnfcWsyNnHtBBlsFpINx9bCN-eNWMz/view?usp=drive_link
+Reservation is confirmed. It lasts for only 10minutes. User can use the timer or he/she can go back to the home page.
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
+https://drive.google.com/file/d/1Bo5KwoE7jhAoNTBn461hFQg5_4OTtsfy/view?usp=sharing
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Fathimath Binsiya : Contributed in the front-end development of pages 2-3
+- Nuha Fajid : Contributed in the front-end development of pages 6-8
+- Rana Ayisha Shihab : Contributed in the front-end development of pages 1,4,5
 
 ---
-Made with ❤️ at TinkerHub
+Made with ❤️ at TinkerHerHack
 
 
 
